@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<section id="content">
+
+{% set landing_page = namespace(page=false) %}
+{% for p in hidden_pages if p.slug == "landing-page-about-hidden" %}
+{% set landing_page.page = p %}
+{% endfor %}
+<header>
+      <h1 id="about-me">{{ landing_page.page.title }}</h1>
+  </header>
+  <div class="article-content">
+      {{ landing_page.page.content }}
+  </div>
+</section><!-- /#content -->
+{% endblock content %}
