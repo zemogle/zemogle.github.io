@@ -36,3 +36,10 @@ LANDING_PAGE_TITLE = "Edward's Profile"
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
+
+READERS = {"html": None}
+
+STATIC_PATHS = [
+    'doctorwho/',
+    'bedtime/'
+    ]
