@@ -41,5 +41,6 @@ READERS = {"html": None}
 
 STATIC_PATHS = [
     'doctorwho/',
-    'bedtime/'
+    'bedtime/',
+    'images/'
     ]
