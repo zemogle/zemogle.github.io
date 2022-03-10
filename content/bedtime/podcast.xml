@@ -7,8 +7,8 @@
     <copyright>© Dark Matter Sheep</copyright>
     <language>en-gb</language>
     <itunes:category text="Kids &amp; Family"/>
-    <itunes:image href="http://www.zemogle.net/static/images/BedtimeStories-lg.jpg"/>
-    <link>http://www.zemogle.net/bedtime/</link>
+    <itunes:image href="https://www.zemogle.net/images/BedtimeStories-lg.jpg"/>
+    <link>https://www.zemogle.net/bedtime/</link>
     <description>Classic and current bedtime stories for all the family narrated by astronomer and science communicator Edward Gomez during the COVID-19 pandemic isolation. These are some of mine and my children's favourites.</description>
     <itunes:summary>Classic and current bedtime stories for all the family narrated by astronomer and science communicator Edward Gomez. I started reading these for my children and office mates, following self-isolation in March 2020 for COVID-19 pandemic. These are some of mine and my children's favourites.</itunes:summary>
     <itunes:owner>
@@ -16,7 +16,7 @@
       <itunes:email>podcast@gomez.me.uk</itunes:email>
     </itunes:owner>
     <itunes:explicit>no</itunes:explicit>
-    
+
     <item>
       <title>The Detective Dog</title>
       <itunes:subtitle>Nell the detective helps to find all the stolen books from a school classroom.</itunes:subtitle>
@@ -30,7 +30,7 @@
       <pubDate>Mon, 24 Jan 2022 22:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>The Troll</title>
       <itunes:subtitle>A new take on the classic Three Billy Goats Gruff, but with pirates instead of goats.</itunes:subtitle>
@@ -44,7 +44,7 @@
       <pubDate>Wed, 27 Oct 2021 22:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>Albert Le Blanc</title>
       <itunes:subtitle>The new arrival in Mr Jolly's toy shop is a sad looking bear. But is he really that sad?</itunes:subtitle>
@@ -58,7 +58,7 @@
       <pubDate>Tue, 14 Sep 2021 22:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>A Quiet Night In</title>
       <itunes:subtitle>You'd be tired too if you had 4 young children, especially if they were elephants.</itunes:subtitle>
@@ -72,7 +72,7 @@
       <pubDate>Fri, 26 Feb 2021 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>The Bear, The Piano, The Dog and The Fiddle</title>
       <itunes:subtitle>The story of a dog who plays the fiddle and tours the world with a big band, which makes his best friend sad.</itunes:subtitle>
@@ -86,7 +86,7 @@
       <pubDate>Tue, 19 Jan 2021 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>The Polar Express</title>
       <itunes:subtitle>A magical train journey to the North Pole to meet Santa.</itunes:subtitle>
@@ -100,7 +100,7 @@
       <pubDate>Wed, 23 Dec 2020 22:30:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>The Squirrels Who Squabbled</title>
       <itunes:subtitle>Two squirrels want the same pine cone for their late harvest.</itunes:subtitle>
@@ -114,7 +114,7 @@
       <pubDate>Sun, 29 Nov 2020 22:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>The Sheriff of Rusty Nail</title>
       <itunes:subtitle>How a sheriff and his pig, deal with a pirate outlaw.</itunes:subtitle>
@@ -128,7 +128,7 @@
       <pubDate>Sun, 18 Oct 2020 13:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>Paddington</title>
       <itunes:subtitle>The classic story of polite but clumsy bear from Darkest Peru who makes friends with a family in a famous London station.</itunes:subtitle>
@@ -142,7 +142,7 @@
       <pubDate>Thu, 17 Sep 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>Room on the Broom</title>
       <itunes:subtitle>And accident prone witch meets some new friends, and a rather unfriendly dragon.</itunes:subtitle>
@@ -156,7 +156,7 @@
       <pubDate>Tue, 18 Aug 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>We're going on a bear hunt</title>
       <itunes:subtitle>A classic story, but what happens if you actually find a bear...?</itunes:subtitle>
@@ -170,7 +170,7 @@
       <pubDate>Sat, 13 Jun 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>A Squash and a Squeeze</title>
       <itunes:subtitle>A little old lady isn't happy with her little house, until all her animals move in.</itunes:subtitle>
@@ -184,7 +184,7 @@
       <pubDate>Fri, 12 Jun 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>Dave the Lonely Monster</title>
       <itunes:subtitle>A lonely Rock n Roll monster befriends a kindly knight</itunes:subtitle>
@@ -198,7 +198,7 @@
       <pubDate>Thu, 7 May 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>The Zax</title>
       <itunes:subtitle>What happens when a North-going Zax meets a South-going Zax?</itunes:subtitle>
@@ -212,7 +212,7 @@
       <pubDate>Tue, 5 May 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>The Smartest Giant in Town</title>
       <itunes:subtitle>George is a scruffy giant who gets a new outfit but gives it all away to help new friends</itunes:subtitle>
@@ -226,7 +226,7 @@
       <pubDate>Fri, 1 May 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>Stickman</title>
       <itunes:subtitle>The adventure of Stickman as he tries to get back to the family tree</itunes:subtitle>
@@ -240,7 +240,7 @@
       <pubDate>Wed, 29 Apr 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>The Gruffalo</title>
       <itunes:subtitle>A mouse took a walk in the deep dark, meeting all sorts of creatures, who thought he looked good.</itunes:subtitle>
@@ -254,7 +254,7 @@
       <pubDate>Tue, 28 Apr 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>The Elephant and the Bad Baby</title>
       <itunes:subtitle>An elephant met a bad baby, and they went rumpeta rumpeta rumpeta.</itunes:subtitle>
@@ -268,7 +268,7 @@
       <pubDate>Wed, 22 Apr 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>A Dollop Of Dragon</title>
       <itunes:subtitle>A dragon has come to Incrediblania and its demanding half the kingdom.</itunes:subtitle>
@@ -282,7 +282,7 @@
       <pubDate>Mon, 6 Apr 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>The Singular Story of the Statue</title>
       <itunes:subtitle>Be careful of breaking an ugly, royal statue. It could land you in prison.</itunes:subtitle>
@@ -296,7 +296,7 @@
       <pubDate>Tue, 31 Mar 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>The Sad Story of Henry</title>
       <itunes:subtitle>Henry is an engine who is very proud of his green paint but that gets him in a bit of a pickle.</itunes:subtitle>
@@ -310,7 +310,7 @@
       <pubDate>Fri, 27 Mar 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>Zog and the Flying Doctors</title>
       <itunes:subtitle>A dragon, knight and princess make the most unlikely ambulance crew.</itunes:subtitle>
@@ -324,7 +324,7 @@
       <pubDate>Thu, 26 Mar 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>Edward and Gordon</title>
       <itunes:subtitle>A story of two engines, one proud and fast, the other kind and useful.</itunes:subtitle>
@@ -338,7 +338,7 @@
       <pubDate>Wed, 25 Mar 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>The King Must Be Obeyed</title>
       <itunes:subtitle>If you have an important visitor always make sure you address your envelopes carefully.</itunes:subtitle>
@@ -352,7 +352,7 @@
       <pubDate>Tue, 24 Mar 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>Edward's Day Out</title>
       <itunes:subtitle>Edward the engine finally gets a day out of the shed.</itunes:subtitle>
@@ -366,7 +366,7 @@
       <pubDate>Mon, 23 Mar 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>Zog</title>
       <itunes:subtitle>The tale of a dragon at school, who isn't very good at being a dragon until he has a little help.</itunes:subtitle>
@@ -380,7 +380,7 @@
       <pubDate>Sun, 22 Mar 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>The Tiger Who Came to Tea</title>
       <itunes:subtitle>There's a strange visitor at the door, and he looks hungry...</itunes:subtitle>
@@ -394,7 +394,7 @@
       <pubDate>Sat, 21 Mar 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>The Bewitched Breakfast</title>
       <itunes:subtitle>If you boil one egg for 3 minutes, how long should you boil 100 eggs?</itunes:subtitle>
@@ -408,7 +408,7 @@
       <pubDate>Fri, 20 Mar 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>The Unexpected Banquet</title>
       <itunes:subtitle>The Queen of Sundimundee invites a lot of important people to a banquet. She promptly forgets and is forced to improvise in hilarious ways.</itunes:subtitle>
@@ -422,7 +422,7 @@
       <pubDate>Thu, 19 Mar 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
+
     <item>
       <title>The King with the Paper</title>
       <itunes:subtitle>The king of Incrediblania is sick in bed but his court make a puppet to meet with visiting dignataries. A well-meaning fairy causes a bit of commotion by bringing the puppet to life.</itunes:subtitle>
@@ -436,7 +436,7 @@
       <pubDate>Wed, 18 Mar 2020 21:00:00 -0000</pubDate>
       <itunes:explicit>No</itunes:explicit>
     </item>
-    
-    <atom:link href="http://www.zemogle.net/bedtime/podcast.xml" rel="self" type="application/rss+xml"/>
+
+    <atom:link href="https://www.zemogle.net/bedtime/podcast.xml" rel="self" type="application/rss+xml"/>
   </channel>
 </rss>
