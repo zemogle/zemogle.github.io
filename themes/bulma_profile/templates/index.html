@@ -6,8 +6,87 @@
 {% for p in hidden_pages if p.slug == "landing-page-about-hidden" %}
 {% set landing_page.page = p %}
 {% endfor %}
-  <div class="content">
+<div class="columns">
+  <div class="column is-three-fifths">
+    <figure class="image">
+      <img src="/images/hongkong_edward.jpg" alt="Edward Gomez science communication" />
+    </figure>
+  <div class="summary">
+    <div class="title is-size-5 has-text-weight-bold">About Me</div>
       {{ landing_page.page.content }}
   </div>
+  </div>
+  <div class="column">
+    <div class="projects">
+      <div class="title is-size-5 has-text-weight-bold">Personal Projects</div>
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="https://www.adacomic.uk/images/ada_head_icon.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong><a href="http://www.adacomic.uk">Ada's Adventures in Science</a></strong>
+              <br>
+              A science comicbook to encourage and inspire young people to keep asking questions.
+              </p>
+          </div>
+        </div>
+      </article>
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="/images/BedtimeStories.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong><a href="https://www.zemogle.net/bedtime/">Bedtime Stories</a></strong>
+              <br>
+              A podcast of bedtime stories narrated by me, started during 2020 Covid-19 lockdown.
+              </p>
+          </div>
+        </div>
+      </article>
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="/doctorwho/static/img/tardis.png">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong><a href="/doctorwho/">Doctor Who Gender Balance</a></strong>
+              <br>
+              The gender balance of all every episode of post-2005 Doctor Who
+              </p>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="projects">
+      <div class="title is-size-5 has-text-weight-bold">Astronomy Projects</div>
+      <article class="media">
+        <figure class="media-left">
+          <p class="image is-64x64">
+            <img src="https://lco.global/static/img/gsp-logo.4a073e6b669a.jpg">
+          </p>
+        </figure>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong><a href="https://lco.global/education/partners">Global Sky Partners</a></strong>
+              <br>
+              Supporting astronomy projects using robotic telescopes, particularly for underserved communities.
+              </p>
+          </div>
+        </div>
+      </article>
+  </div>
+</div>
 </section><!-- /#content -->
 {% endblock content %}
