@@ -18,11 +18,12 @@ AUTHOR_FEED_RSS = None
 THEME = 'themes/bulma_profile/'
 
 # Blogroll
-LINKS = (('About', '/about/'),
+LINKS = (
+        ('Home','/'),
+        ('About', '/about/'),
          ('CV', '/curriculum-vitae/'),
          ('Talks', '/talks/'),
-         ('Videos', '/videos/'),)
-
+)
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
