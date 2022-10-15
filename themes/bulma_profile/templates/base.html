@@ -1,8 +1,17 @@
 <!DOCTYPE html>
-<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+<html lang="en">
 
 <head>
-  <title>{% block title %}{% endblock %}</title>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-1315386-14"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1315386-14');
+</script>
+  <title>Edward Gomez :: {% block title %}{% endblock %}</title>
 	<meta name="robots" content="index, follow" />
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -24,7 +33,7 @@
 <link rel="manifest" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/images/site.webmanifest">
 <meta name="theme-color" content="#bd93f9" />
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/styles.css" />
 
 
@@ -71,7 +80,6 @@
   gtag('config', 'G-GCX75H0XCB');
 </script>
 </head>
-
 
 <body id="index" class="home">
 

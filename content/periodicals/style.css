@@ -1,0 +1,155 @@
+body{
+    font-family:arial;
+    color:#333;
+}
+#postage{
+    margin-top:50px;
+}
+#postage form{
+    margin-top:30px;
+}
+#choice{
+    float:left;
+    width:80px;
+
+}
+.minor{
+    color:#aaa;
+}
+
+.element-key{
+    font-family: 'Open Sans', sans-serif;
+    padding:5px 5px 0 5px;
+    margin:10px 2px 0 10px;
+    height:80px;
+    width:80px;
+    border:solid 4px #ccc;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+    background-color:#fff;
+}
+
+.element{
+    font-family: 'Open Sans', sans-serif;
+    padding:5px 5px 0 5px;
+    margin:10px 2px 0 10px;
+    height:80px;
+    width:80px;
+    border:solid 4px #ccc;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+    background-color:#fff;
+    float:left;
+}
+
+ul#wordlist{
+    padding-left:0;
+    margin-left: 0;
+    display:inline;
+}
+ul li.element {
+    list-style: none;
+    margin-bottom: 0;
+    display: inline;
+}
+.impure{
+    border:4px solid #EB984E;
+    color:#333;
+    background-color: #F5B041;
+}
+
+.nonmendel{
+    border:4px solid #99A3A4;
+    color:#fff;
+    background-color:#212F3C;
+}
+.name{
+    clear:both;
+    position:relative;
+    font-size:10px;
+    text-align:right;
+    float:right;
+}
+.symbol{
+    clear:both;
+    position:relative;
+    font-size:25px;
+    text-align:center;
+}
+.anumber{
+    clear:both;
+    position:relative;
+    font-size:10px;
+    text-align:left;
+    float:left;
+}
+#space{
+    border:1px solid #777;
+    padding:5px 5px 0 5px;
+    margin:10px 10px 0 10px;
+    height:60px;
+    width:60px;
+    float:left;
+}
+.star{
+    position:relative;
+    font-size:25px;
+    top:20px;
+    left:20px;
+    color:#aaa;
+}
+.row{
+    clear:both;
+    float:left;
+    border-bottom: 1px #777 dashed;
+    padding-bottom:5px;
+    width:100%;
+}
+
+.subtle{
+    font-size:0.7em;
+    color:#777;
+}
+
+#left-small{
+    border-bottom:1px #a07df0 solid;
+}
+.hide{
+    display:none;
+}
+
+#footer{
+    padding-top:20px;
+}
+#footer p{
+    font-size:9pt;
+}
+#footer a:link,
+#footer a:visited{
+    color:#600;
+    text-decoration:none;
+}
+#footer a:hover{
+    color:#a07df0;
+    text-decoration:underline;
+}
+
+#date ul li {
+    position: relative;
+}
+#date ul li span {
+    color: #FFFFFF;
+    text-shadow: rgba(0,0,0,.7) 0 1px 2px;
+}
+#date ul li .delete {
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    font-size: 12px;
+    line-height: 30px;
+    padding: 0 3px;
+    border-width: 0 5px;
+    -webkit-border-image: url(themes/jqt/img/button.png) 0 5 0 5;
+}
