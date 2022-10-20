@@ -41,13 +41,14 @@ body{
     border-radius: 5px;
     -webkit-border-radius:5px;
     background-color:#fff;
-    float:left;
 }
 
-ul#wordlist{
+#wordlist{
     padding-left:0;
     margin-left: 0;
-    display:inline;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
 }
 ul li.element {
     list-style: none;

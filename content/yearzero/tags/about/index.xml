@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Year Zero</title>
+    <link>http://www.yearzero.me.uk/tags/about/</link>
+    <description>Recent content in About on Year Zero</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Copyright 2017 - Dark Matter Sheep</copyright>
+    <lastBuildDate>Sat, 12 Dec 2015 17:42:58 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.yearzero.me.uk/tags/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Us</title>
+      <link>http://www.yearzero.me.uk/about/</link>
+      <pubDate>Sat, 12 Dec 2015 17:42:58 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/about/</guid>
+      <description>Cardiff School of Physics and Astronomy is reaching out to primary schools and communities across Wales, hoping to spark a curiosity about the Universe in young children.
+Universe in the Classroom is an initiative that provides improved teaching methods and innovative tools to modernise and enhance the way STEMM subjects (science, technology, engineering, medicine and mathematics) are taught to young children. As well as inspirational school workshops, the programme offers STEMM teacher training to Welsh primary school teachers to ensure have the confidence and knowledge to use the new resources, which includes a programme of activities using robotic telescopes, Universe-in-a-Box educational toolkits and dozens of enquiry-based learning activities.</description>
+    </item>
+    
+  </channel>
+</rss>

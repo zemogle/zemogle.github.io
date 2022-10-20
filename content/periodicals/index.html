@@ -173,11 +173,11 @@
             }else {
               mendel = "";
             }
-            $('#wordlist').append("<li class='element" + mendel + "' title='" + val['element'][0][2] + "'>" +
+            $('#wordlist').append("<div class='element" + mendel + "' title='" + val['element'][0][2] + "'>" +
               "<div class='anumber'>" + val['element'][0][0] + "</div>" +
               "<div class='symbol'>" + val['element'][0][3] + "</div>" +
               "<div class='name'>" + val['element'][0][2] + "</div>" +
-              "</li>");
+              "</div>");
           });
         }
         e.preventDefault();
@@ -269,12 +269,14 @@
           </div>
         </form>
 
-          <div data-role="content">
-            <ul id="wordlist"></ul>
+          <div data-role="content" class="is-flex">
+            <div id="wordlist"></div>
           </div>
 
         </div>
       </div>
+    </section>
+      <section class="section">
        <hr />
        <p class="title">How it works</p>
        <div class="columns">

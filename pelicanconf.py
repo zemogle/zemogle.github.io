@@ -44,5 +44,6 @@ STATIC_PATHS = [
     'doctorwho/',
     'bedtime/',
     'images/',
-    'periodicals/'
+    'periodicals/',
+    'yearzero/'
     ]

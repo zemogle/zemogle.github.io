@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Year Zero</title>
+    <link>http://www.yearzero.me.uk/</link>
+    <description>Recent content on Year Zero</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Copyright 2017 - Dark Matter Sheep</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 15:25:29 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.yearzero.me.uk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contact</title>
+      <link>http://www.yearzero.me.uk/contact/</link>
+      <pubDate>Sun, 01 Jan 2017 15:25:29 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/contact/</guid>
+      <description>Name   Email   Message        </description>
+    </item>
+    
+    <item>
+      <title>Firsts</title>
+      <link>http://www.yearzero.me.uk/firsts/</link>
+      <pubDate>Sun, 01 Jan 2017 15:25:29 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/firsts/</guid>
+      <description>New Firsts Part of my ethic for Year Zero is to do new things. These are some of the new things that I&amp;rsquo;ve done and new things I&amp;rsquo;ve achieved.
+  15 February - Seminar at Harvard University  10 April - Review paper published (on Robotic Telescopes in Education)  7 April - Appeared on Radio 1 Newsbeat talking about exoplanets  5 May - Hiked to the top of Snowdon  27 May - Saw Alien in the undercroft of Cardiff Castle  1 June - Travelled in the HeathrowPod to Terminal 5  23 June - Visit to Disneyland, Anaheim, California  5 July - Trip to Norway and drank brandy from a hip-flask at the foot of a glacier  8 September - Was under curfew because of a hurricane, Hurricane Irma, Orlando, Florida  4 October - Visited Finland for a conference of 100 innovators in education, HundrED, Helsinki  Old Firsts There are plenty of things that I enjoy doing, which are significant.</description>
+    </item>
+    
+    <item>
+      <title>When Life Begins</title>
+      <link>http://www.yearzero.me.uk/home/</link>
+      <pubDate>Tue, 19 Jan 2016 15:25:29 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/home/</guid>
+      <description>2017 was a momentous year. I was feeling a bit apprehensive about a particular date during this year. So much that I was really down about the whole year. I realised there was only 2 ways this could go: try to hide from it, or embrace it. In 2017, I turned 40 and I&amp;rsquo;m ok about that. I&amp;rsquo;m actually quite proud all of the great things I&amp;rsquo;ve done, friendships I&amp;rsquo;ve made, wonderful sights I&amp;rsquo;ve seen, and all the fun I&amp;rsquo;ve had since 1977.</description>
+    </item>
+    
+    <item>
+      <title>Where I went in Year Zero</title>
+      <link>http://www.yearzero.me.uk/map/</link>
+      <pubDate>Tue, 19 Jan 2016 15:25:29 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/map/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Where I went in Year Zero</title>
+      <link>http://www.yearzero.me.uk/where/</link>
+      <pubDate>Tue, 19 Jan 2016 15:25:29 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/where/</guid>
+      <description>I carried my phone with me almost everywhere in 2017. I used Swarm (formerlly the &amp;lsquo;check in&amp;rsquo; part of Foursquare) to track the places I went. I then wrote some code to extract that from the Foursquare API and produce the map above and the lists below. All of the code is on GitHub - you can fork me!
+Steps I walked 2,999,935 steps during Year Zero. That about 1872 km.</description>
+    </item>
+    
+    <item>
+      <title>Who?</title>
+      <link>http://www.yearzero.me.uk/who/</link>
+      <pubDate>Tue, 19 Jan 2016 15:25:29 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/who/</guid>
+      <description>There are lot of lucky people who are sharing Year Zero with me. You know who you are. I won&amp;rsquo;t name people I know personally but I will name famous people, to make myself feel a bit better.
+Real People   Sarah Michelle Gellar  Liv Tyler  Jessica Chastain  Michael Fassbender  Zachary Quinto  Tom Hardy  Fictional People   Jessica Drew aka Spider Woman  Carol Danvers aka Ms Marvel aka Captain Marvel  Judge Dredd  Things   Voyager 1 and 2 spacecrafts  Apple II home computer  Star Wars  Discoveries   Wow!</description>
+    </item>
+    
+    <item>
+      <title>About Us</title>
+      <link>http://www.yearzero.me.uk/about/</link>
+      <pubDate>Sat, 12 Dec 2015 17:42:58 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/about/</guid>
+      <description>Cardiff School of Physics and Astronomy is reaching out to primary schools and communities across Wales, hoping to spark a curiosity about the Universe in young children.
+Universe in the Classroom is an initiative that provides improved teaching methods and innovative tools to modernise and enhance the way STEMM subjects (science, technology, engineering, medicine and mathematics) are taught to young children. As well as inspirational school workshops, the programme offers STEMM teacher training to Welsh primary school teachers to ensure have the confidence and knowledge to use the new resources, which includes a programme of activities using robotic telescopes, Universe-in-a-Box educational toolkits and dozens of enquiry-based learning activities.</description>
+    </item>
+    
+  </channel>
+</rss>
