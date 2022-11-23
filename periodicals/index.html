@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1315386-14"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-1315386-14');
+  </script>
+  <title>Periodicalizer - Edward Gomez</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+  <meta charset="utf-8">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.zemogle.net/theme/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://www.zemogle.net/theme/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://www.zemogle.net/theme/images/favicon-16x16.png">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script type="text/javascript" charset="utf-8" src="jquery-1.7.1.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+
+      //  See if we have a querystring to use before searching.
+      const params = new Proxy(new URLSearchParams(window.location.search), {
+        get: (searchParams, prop) => searchParams.get(prop),
+      });
+      let word = params.word;
+
+
+      $.elemento = {};
+      $.elemento.list = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr",
+        "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt",
+        "Au", "Hg", "Tl", "Pb", "Bi", "Po", "At", "Rn", "Fr", "Ra", "Ac", "Th", "Pa", "U", "Np", "Pu", "Am", "Cm", "Bk", "Cf", "Es", "Fm", "Md", "No", "Lr", "Rf", "Db", "Sg", "Bh", "Hs", "Mt", "Jl", "D", "T", "Q", "Ds", "Rg", "Cn",
+        "Nh","Fl","Mc","Lv","Ts","Og"
+      ];
+      $.elemento.full = [
+        [1, '2', 'Hydrogen', 'H', '', ''],
+        [2, '4.002', 'Helium', 'He', '', ''],
+        [3, '6.941', 'Lithium', 'Li', '', ''],
+        [4, '9.012', 'Beryllium', 'Be', '', ''],
+        [5, '10.81', 'Boron', 'B', '', ''],
+        [6, '12.01', 'Carbon', 'C', '', ''],
+        [7, '14.00', 'Nitrogen', 'N', '', ''],
+        [8, '15.99', 'Oxygen', 'O', '', ''],
+        [9, '18.99', 'Fluorine', 'F', '', ''],
+        [10, '20.17', 'Neon', 'Ne', '', ''],
+        [11, '22.98', 'Sodium', 'Na', '', ''],
+        [12, '24.30', 'Magnesium', 'Mg', '', ''],
+        [13, '26.98', 'Aluminum', 'Al', '', ''],
+        [14, '28.08', 'Silicon', 'Si', '', ''],
+        [15, '30.97', 'Phosphorus', 'P', '', ''],
+        [16, '32.06', 'Sulfur', 'S', '', ''],
+        [17, '35.45', 'Chlorine', 'Cl', '', ''],
+        [18, '39.94', 'Argon', 'Ar', '', ''],
+        [19, '39.09', 'Potassium', 'K', '', ''],
+        [20, '40.07', 'Calcium', 'Ca', '', ''],
+        [21, '44.95', 'Scandium', 'Sc', '', ''],
+        [22, '47.86', 'Titanium', 'Ti', '', ''],
+        [23, '50.94', 'Vanadium', 'V', '', ''],
+        [24, '51.99', 'Chromium', 'Cr', '', ''],
+        [25, '54.93', 'Manganese', 'Mn', '', ''],
+        [26, '55.84', 'Iron', 'Fe', '', ''],
+        [27, '58.93', 'Cobalt', 'Co', '', ''],
+        [28, '58.69', 'Nickel', 'Ni', '', ''],
+        [29, '63.54', 'Copper', 'Cu', '', ''],
+        [30, '65.39', 'Zinc', 'Zn', '', ''],
+        [31, '69.72', 'Gallium', 'Ga', '', ''],
+        [32, '72.64', 'Germanium', 'Ge', '', ''],
+        [33, '74.92', 'Arsenic', 'As', '', ''],
+        [34, '78.96', 'Selenium', 'Se', '', ''],
+        [35, '79.90', 'Bromine', 'Br', '', ''],
+        [36, '83.8', 'Krypton', 'Kr', '', ''],
+        [37, '85.46', 'Rubidium', 'Rb', '', ''],
+        [38, '87.62', 'Strontium', 'Sr', '', ''],
+        [39, '88.90', 'Yttrium', 'Y', '', ''],
+        [40, '91.22', 'Zirconium', 'Zr', '', ''],
+        [41, '92.90', 'Niobium', 'Nb', '', ''],
+        [42, '95.94', 'Molybdenum', 'Mo', '', ''],
+        [43, '98', 'Technetium', 'Tc', '', ''],
+        [44, '101.0', 'Ruthenium', 'Ru', '', ''],
+        [45, '102.9', 'Rhodium', 'Rh', '', ''],
+        [46, '106.4', 'Palladium', 'Pd', '', ''],
+        [47, '107.8', 'Silver', 'Ag', '', ''],
+        [48, '112.4', 'Cadmium', 'Cd', '', ''],
+        [49, '114.8', 'Indium', 'In', '', ''],
+        [50, '118.7', 'Tin', 'Sn', '', ''],
+        [51, '121.7', 'Antimony', 'Sb', '', ''],
+        [52, '127.6', 'Tellurium', 'Te', '', ''],
+        [53, '126.9', 'Iodine', 'I', '', ''],
+        [54, '131.2', 'Xenon', 'Xe', '', ''],
+        [55, '132.9', 'Cesium', 'Cs', '', ''],
+        [56, '137.3', 'Barium', 'Ba', '', ''],
+        [57, '138.9', 'Lanthanum', 'La', '', ''],
+        [58, '140.1', 'Cerium', 'Ce', '', ''],
+        [59, '140.9', 'Praseodymium', 'Pr', '', ''],
+        [60, '144.2', 'Neodymium', 'Nd', '', ''],
+        [61, '145', 'Promethium', 'Pm', '', ''],
+        [62, '150.3', 'Samarium', 'Sm', '', ''],
+        [63, '151.9', 'Europium', 'Eu', '', ''],
+        [64, '157.2', 'Gadolinium', 'Gd', '', ''],
+        [65, '158.9', 'Terbium', 'Tb', '', ''],
+        [66, '162.5', 'Dysprosium', 'Dy', '', ''],
+        [67, '164.9', 'Holmium', 'Ho', '', ''],
+        [68, '167.2', 'Erbium', 'Er', '', ''],
+        [69, '168.9', 'Thulium', 'Tm', '', ''],
+        [70, '173.0', 'Ytterbium', 'Yb', '', ''],
+        [71, '174.9', 'Lutetium', 'Lu', '', ''],
+        [72, '178.4', 'Hafnium', 'Hf', '', ''],
+        [73, '180.9', 'Tantalum', 'Ta', '', ''],
+        [74, '183.8', 'Tungsten', 'W', '', ''],
+        [75, '186.2', 'Rhenium', 'Re', '', ''],
+        [76, '190.2', 'Osmium', 'Os', '', ''],
+        [77, '192.2', 'Iridium', 'Ir', '', ''],
+        [78, '195.0', 'Platinum', 'Pt', '', ''],
+        [79, '196.9', 'Gold', 'Au', '', ''],
+        [80, '200.5', 'Mercury', 'Hg', '', ''],
+        [81, '204.3', 'Thallium', 'Tl', '', ''],
+        [82, '207.2', 'Lead', 'Pb', '', ''],
+        [83, '208.9', 'Bismuth', 'Bi', '', ''],
+        [84, '209', 'Polonium', 'Po', '', ''],
+        [85, '210', 'Astatine', 'At', '', ''],
+        [86, '222', 'Radon', 'Rn', '', ''],
+        [87, '223', 'Francium', 'Fr', '', ''],
+        [88, '226', 'Radium', 'Ra', '', ''],
+        [89, '227', 'Actinium', 'Ac', '', ''],
+        [90, '232.0', 'Thorium', 'Th', '', ''],
+        [91, '231.0', 'Protactinium', 'Pa', '', ''],
+        [92, '238.0', 'Uranium', 'U', '', ''],
+        [93, '237', 'Neptunium', 'Np', '', ''],
+        [94, '244', 'Plutonium', 'Pu', '', ''],
+        [95, '243', 'Americium', 'Am', '', ''],
+        [96, '247', 'Curium', 'Cm', '', ''],
+        [97, '247', 'Berkelium', 'Bk', '', ''],
+        [98, '251', 'Californium', 'Cf', '', ''],
+        [99, '252', 'Einsteinium', 'Es', '', ''],
+        [100, '257', 'Fermium', 'Fm', '', ''],
+        [101, '258', 'Mendelevium', 'Md', '', ''],
+        [102, '259', 'Nobelium', 'No', '', ''],
+        [103, '262', 'Lawrencium', 'Lr', '', ''],
+        [104, '261', 'Rutherfordium', 'Rf', '', ''],
+        [105, '262', 'Dubnium', 'Db', '', ''],
+        [106, '266', 'Seaborgium', 'Sg', '', ''],
+        [107, '264', 'Bohrium', 'Bh', '', ''],
+        [108, '277', 'Hassium', 'Hs', '', ''],
+        [109, '268', 'Meitnerium', 'Mt', '', ''],
+        [105, '', 'Joliotium', 'Jl', 'N', ''],
+        [1, '2.014', 'Deuterium', 'D', 'N', 'Non-Mendeleevian element|This is an unofficial name and symbol|Deuterium is heavy Hydrogen because it has a neutron.'],
+        [1, '3.016', 'Tritium', 'T', 'N', 'Non-Mendeleevian element|This is an unofficial name and symbol|Tritium is heavy Hydrogen because it has two neutrons.'],
+        [200, '', 'Quixotium', 'Q', 'N', 'Non-Mendeleevian element|This is a fictitious element, we named after Don Quixote|Forgive us, we needed a Q!'],
+        [110, '281', 'Darmstadtium', 'Ds', '', ''],
+        [111, '273.154 ', 'Roentgenium', 'Rg', '', ''],
+        [112, '285', 'Copernicium', 'Cn', '', ''],
+        [113, '290','Nihonium','Nh','',''],
+        [114, '290','Flerovium','Fl','',''],
+        [115, '290','Moscovium','Mc','',''],
+        [116, '290','Livermorium','Lv','',''],
+        [117, '290','Tennessine','Ts','',''],
+        [118, '290','Oganesson','Og','',''],
+      ];
+
+      if (word) {
+        periodicalize(words=word)
+        var link = "https://www.zemogle.net/periodicals/?word=" + word
+        $('a#sharelink').attr('href', link);
+      } else {
+        $('a#sharelink').hide()
+      }
+
+      $('#goperiodic').submit(function(e) {
+        $('#wordlist').html('');
+        var words = $('#phrase').val();
+        periodicalize(words=words)
+        e.preventDefault();
+        var link = "https://www.zemogle.net/periodicals/?word=" + words
+        $('a#sharelink').attr('href', link);
+        $('a#sharelink').show()
+      });
+
+
+    });
+
+    function periodicalize(words){
+      var newwords = words.replace(/\W+/g, ' ');
+      var word = newwords.split(' ');
+      var wordlist = Array();
+      for (var k = 0; k <= word.length - 1; k++) {
+        ret = elementfinder(word[k])
+        $.each(ret[0], function(key, val) {
+          console.log(key,val)
+          if (val['type'] == 'impure') {
+            mendel = " impure";
+          } else if (val['element'][0][4] == 'N') {
+            mendel = " nonmendel";
+          }else {
+            mendel = "";
+          }
+          $('#wordlist').append("<div class='element" + mendel + "' title='" + val['element'][0][2] + "'>" +
+            "<div class='anumber'>" + val['element'][0][0] + "</div>" +
+            "<div class='symbol'>" + val['element'][0][3] + "</div>" +
+            "<div class='name'>" + val['element'][0][2] + "</div>" +
+            "</div>");
+        });
+      }
+    }
+
+    function elementfinder(e) {
+      var letters = e.toUpperCase().split("");
+      var length = letters.length;
+      var res;
+      var one = new Array();
+      var two = new Array();
+      var three = new Array();
+      var words = new Array();
+      var rest;
+      var impure = 0;
+      var res2 = new Array();
+      //Find singletons
+      for (i = 0; i <= (length - 1); i++) {
+        res = jQuery.inArray(letters[i], $.elemento.list);
+        one.push(res)
+      }
+      for (i = 0; i <= (length - 2); i++) {
+        doub = letters[i] + letters[i + 1].toLowerCase();
+        res = jQuery.inArray(doub, $.elemento.list);
+        two.push(res)
+      }
+      two.push(-1); // Makes the array the same length as the others but has a Null value
+      for (i = 0; i <= (length - 1); i++) {
+        res = jQuery.grep($.elemento.list, function(a, j) {
+          first = a.split("");
+          return first[0] == letters[i]
+        });
+        res2 = new Array();
+        for (j = 0; j < res.length; j++) {
+          rest = jQuery.inArray(res[j], $.elemento.list);
+          res2.push(rest);
+        }
+        three.push(res2);
+      }
+      var fail = 0;
+      var word = [];
+      var els = Array();
+      i = 0;
+      while (i < length) {
+        if (two[i] != -1) {
+          word.push({'element':Array($.elemento.full[two[i]]),'type':'pure'});
+          i++;
+        } else if (one[i] != -1) {
+          word.push({'element':Array($.elemento.full[one[i]]),'type':'pure'});
+        } else if (three[i] != null) {
+          els = Array();
+          for (x = 0; x < three[i].length; x++) {
+            els.push($.elemento.full[three[i][x]]);
+          }
+          impure++;
+          word.push({'element':els,'type':'impure'});
+        } else {
+          fail++;
+          console.log('fail')
+          word.push('');
+        }
+        i++;
+      }
+      return [word, impure];
+    }
+  </script>
+</head>
+
+
+<body>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-three-fifths is-offset-one-fifth">
+          <figure class="image">
+            <img src="periodicals.png" alt="Periodicals logo" />
+          </figure>
+
+          <form id="goperiodic">
+          <div class="field has-addons">
+
+            <p class="control is-expanded" id="search">
+              <input class="input is-large" type="text" placeholder="Find your Periodical" name="phrase" id="phrase">
+            </p>
+            <p class="control">
+              <button type="submit" class="button is-large" data-theme="a">Go Elemento!</button>
+            </p>
+          </div>
+        </form>
+
+          <div data-role="content" class="is-flex block">
+            <div id="wordlist"></div>
+          </div>
+
+          <div class="block"><a href="" id="sharelink">
+            <span class="icon-text">
+              <span class="icon">
+                <span class="material-symbols-outlined">share</span>
+              </span>
+              <span>Share your Periodical</span>
+            </span>
+          </a></div>
+
+        </div>
+      </div>
+    </section>
+      <section class="section">
+       <hr />
+       <p class="title">How it works</p>
+       <div class="columns">
+         <div class="column is-1">
+           <div class="element-key" title="Hydrogen"><div class="anumber">1</div><div class="symbol">H</div><div class="name">Hydrogen</div></div>
+         </div>
+        <div class="column">
+          Normal elements whose abbreviation letters are used entirely in the word creation.
+       </div>
+         <div class="column is-1">
+           <div class="element-key nonmendel" title="Demo"><div class="anumber">200</div><div class="symbol">Q</div><div class="name">Quixotium</div></div>
+         </div>
+        <div class="column">
+         This is a fictional element. I've added a couple of these because the letter Q doesn't exist in the Periodic Table. I also added <a href="https://en.wikipedia.org/wiki/Tritium">Tritium</a> and <a href="https://en.wikipedia.org/wiki/Deuterium">Deuterium</a> into this category because they're not elements but <a href="https://en.wikipedia.org/wiki/Isotope">isotropes</a> of Hydrogen.
+       </div>
+
+       <div class="column is-1">
+         <div class="element-key impure" title="Lithium"><div class="anumber">3</div><div class="symbol">Li</div><div class="name">Lithium</div></div>
+       </div>
+      <div class="column">
+         This colour corresponds to an "impure" match to the supplied word. The match works only if you ignore the smaller letter in the element abbreviation.
+       </div>
+</div>
+              <hr />
+      <div class="content has-text-centered">
+
+       <p>© This bit of silliness was created by <a href="https://www.zemogle.net">Edward Gomez</a> in 2011. I remembered it again in 2022.</p>
+       <p>In 2012 <a href="http://artmeetstony.com/">Tony Davis</a> and I created a board game based on the Periodicals called <a href="https://elemensus.com/">Elemensus</a>.</p>
+     </div>
+    </div>
+  </section>
+
+</body>
+
+</html>

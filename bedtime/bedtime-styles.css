@@ -1,0 +1,41 @@
+body {
+  font-size: 1.2em;
+}
+h1, h2, h3, h4, h5, h6  {
+  font-family: 'Great Vibes', cursive, "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.episode {
+  background-color: #ccc;
+  margin:10px;
+  padding:5px;
+  border-radius: 10px;
+}
+
+.content {
+  padding: 10px;
+}
+
+.episodes h3 {
+  font-family: "Times New Roman", serif;
+}
+
+.episodes {
+  text-align: center;
+}
+
+img.fluid {
+  max-width: 100%;
+  height: auto;
+}
+.cover {
+  padding:5px;
+}
+
+li {
+  list-style: none;
+}
+
+.section{
+  padding-top:2rem;
+}

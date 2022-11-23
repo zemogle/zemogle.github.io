@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Year Zero</title>
+    <link>http://www.yearzero.me.uk/tags/</link>
+    <description>Recent content in Tags on Year Zero</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Copyright 2017 - Dark Matter Sheep</copyright>
+    <lastBuildDate>Sat, 12 Dec 2015 17:42:58 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.yearzero.me.uk/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://www.yearzero.me.uk/tags/about/</link>
+      <pubDate>Sat, 12 Dec 2015 17:42:58 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/tags/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://www.yearzero.me.uk/tags/contact/</link>
+      <pubDate>Sun, 01 Jan 2017 15:25:29 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/tags/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Firsts</title>
+      <link>http://www.yearzero.me.uk/tags/firsts/</link>
+      <pubDate>Sun, 01 Jan 2017 15:25:29 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/tags/firsts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gmap</title>
+      <link>http://www.yearzero.me.uk/tags/gmap/</link>
+      <pubDate>Tue, 19 Jan 2016 15:25:29 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/tags/gmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>http://www.yearzero.me.uk/tags/home/</link>
+      <pubDate>Tue, 19 Jan 2016 15:25:29 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/tags/home/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Where</title>
+      <link>http://www.yearzero.me.uk/tags/where/</link>
+      <pubDate>Tue, 19 Jan 2016 15:25:29 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/tags/where/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Who</title>
+      <link>http://www.yearzero.me.uk/tags/who/</link>
+      <pubDate>Tue, 19 Jan 2016 15:25:29 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/tags/who/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

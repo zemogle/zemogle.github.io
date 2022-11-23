@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on Year Zero</title>
+    <link>http://www.yearzero.me.uk/tags/home/</link>
+    <description>Recent content in Home on Year Zero</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Copyright 2017 - Dark Matter Sheep</copyright>
+    <lastBuildDate>Tue, 19 Jan 2016 15:25:29 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.yearzero.me.uk/tags/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>When Life Begins</title>
+      <link>http://www.yearzero.me.uk/home/</link>
+      <pubDate>Tue, 19 Jan 2016 15:25:29 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/home/</guid>
+      <description>2017 was a momentous year. I was feeling a bit apprehensive about a particular date during this year. So much that I was really down about the whole year. I realised there was only 2 ways this could go: try to hide from it, or embrace it. In 2017, I turned 40 and I&amp;rsquo;m ok about that. I&amp;rsquo;m actually quite proud all of the great things I&amp;rsquo;ve done, friendships I&amp;rsquo;ve made, wonderful sights I&amp;rsquo;ve seen, and all the fun I&amp;rsquo;ve had since 1977.</description>
+    </item>
+    
+  </channel>
+</rss>

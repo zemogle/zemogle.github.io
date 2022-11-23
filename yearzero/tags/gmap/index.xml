@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gmap on Year Zero</title>
+    <link>http://www.yearzero.me.uk/tags/gmap/</link>
+    <description>Recent content in Gmap on Year Zero</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Copyright 2017 - Dark Matter Sheep</copyright>
+    <lastBuildDate>Tue, 19 Jan 2016 15:25:29 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.yearzero.me.uk/tags/gmap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Where I went in Year Zero</title>
+      <link>http://www.yearzero.me.uk/map/</link>
+      <pubDate>Tue, 19 Jan 2016 15:25:29 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/map/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

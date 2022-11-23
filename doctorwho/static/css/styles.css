@@ -1,0 +1,109 @@
+/*Layouts */
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+.column,
+.columns {
+  width: 100%;
+  float: left;
+  box-sizing: border-box; }
+
+  /* For devices larger than 400px */
+  @media (min-width: 400px) {
+    .container {
+      width: 85%;
+      padding: 0; }
+  }
+
+/* For devices larger than 550px */
+@media (min-width: 550px) {
+    .container {
+      width: 80%; }
+    .column,
+    .columns {
+      margin-left: 4%; }
+    .column:first-child,
+    .columns:first-child {
+      margin-left: 0; }
+    .one-half.column{ width: 48%; }
+  }
+
+  /* Self Clearing Goodness */
+  .container:after,
+  .row:after,
+  .u-cf {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* Styles */
+
+body {
+    /*font-family: 'Orbitron', sans-serif;*/
+    /*font-family: 'Russo One', sans-serif;*/
+    font-family: sans-serif;
+    /*font-family: 'Audiowide', cursive;*/
+    max-width:976px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+a {text-decoration: none; color:#0B33AD;}
+a:visited {color:#95581f;}
+a:hover {color:#DAA520;}
+
+.cell-M {background-color:#A3E4D7; }
+.cell-F {background-color:#BB8FCE;}
+.cell-U, .cell-O {background-color:#AAA; }
+.cell-B {background-color:#fca; }
+.cell-N {background-color:#acf; }
+.cell {
+    color: #333;
+    display: inline-block;
+    line-height: 2em;
+    text-align: center;
+    white-space: nowrap;
+    float:left;
+    margin-bottom:10px;
+}
+.cell-full {
+    color: #333;
+    display: block;
+    line-height: 2em;
+    text-align: left;
+    white-space: nowrap;
+    padding:5px;
+}
+
+.casting .episode-cast {padding:5px;border:1px solid #aaa;}
+
+.episode-name {
+  width:40%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor:pointer;
+  text-align: right;
+  padding:2px;
+}
+
+.episode-name:hover {
+  text-decoration: underline;
+  color: #BB8FCE;
+}
+
+h1, h2, h3 {clear:both; font-family: 'Russo One', sans-serif;}
+h1 {text-align:center;}
+
+.col-lg {width:85%;}
+.col-sm {width:15%;}
+.col-sm img {max-width: 100%; max-height: 100%;}
+.col {float:left;}
+
+.season, .summary, .episode {width:100%;clear:both;}
+.episodes {max-width: 60%}
+.season-btn {  font-family: sans-serif;weight:normal;font-size:0.5em;}

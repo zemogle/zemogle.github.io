@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Where on Year Zero</title>
+    <link>http://www.yearzero.me.uk/tags/where/</link>
+    <description>Recent content in Where on Year Zero</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-GB</language>
+    <copyright>Copyright 2017 - Dark Matter Sheep</copyright>
+    <lastBuildDate>Tue, 19 Jan 2016 15:25:29 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.yearzero.me.uk/tags/where/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Where I went in Year Zero</title>
+      <link>http://www.yearzero.me.uk/where/</link>
+      <pubDate>Tue, 19 Jan 2016 15:25:29 +0000</pubDate>
+      
+      <guid>http://www.yearzero.me.uk/where/</guid>
+      <description>I carried my phone with me almost everywhere in 2017. I used Swarm (formerlly the &amp;lsquo;check in&amp;rsquo; part of Foursquare) to track the places I went. I then wrote some code to extract that from the Foursquare API and produce the map above and the lists below. All of the code is on GitHub - you can fork me!
+Steps I walked 2,999,935 steps during Year Zero. That about 1872 km.</description>
+    </item>
+    
+  </channel>
+</rss>
