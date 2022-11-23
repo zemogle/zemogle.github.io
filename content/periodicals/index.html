@@ -11,7 +11,7 @@
 
     gtag('config', 'UA-1315386-14');
   </script>
-  <title>Periodic Thinking</title>
+  <title>Periodicalizer - Edward Gomez</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
   <meta charset="utf-8">
@@ -21,10 +21,19 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <link rel="stylesheet" type="text/css" href="style.css" />
   <script type="text/javascript" charset="utf-8" src="jquery-1.7.1.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
+
+      //  See if we have a querystring to use before searching.
+      const params = new Proxy(new URLSearchParams(window.location.search), {
+        get: (searchParams, prop) => searchParams.get(prop),
+      });
+      let word = params.word;
+
+
       $.elemento = {};
       $.elemento.list = ["H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", "Na", "Mg", "Al", "Si", "P", "S", "Cl", "Ar", "K", "Ca", "Sc", "Ti", "V", "Cr", "Mn", "Fe", "Co", "Ni", "Cu", "Zn", "Ga", "Ge", "As", "Se", "Br", "Kr", "Rb", "Sr",
         "Y", "Zr", "Nb", "Mo", "Tc", "Ru", "Rh", "Pd", "Ag", "Cd", "In", "Sn", "Sb", "Te", "I", "Xe", "Cs", "Ba", "La", "Ce", "Pr", "Nd", "Pm", "Sm", "Eu", "Gd", "Tb", "Dy", "Ho", "Er", "Tm", "Yb", "Lu", "Hf", "Ta", "W", "Re", "Os", "Ir", "Pt",
@@ -156,33 +165,50 @@
         [118, '290','Oganesson','Og','',''],
       ];
 
+      if (word) {
+        periodicalize(words=word)
+        var link = "https://www.zemogle.net/periodicals/?word=" + word
+        $('a#sharelink').attr('href', link);
+      } else {
+        $('a#sharelink').hide()
+      }
+
       $('#goperiodic').submit(function(e) {
         $('#wordlist').html('');
         var words = $('#phrase').val();
-        var newwords = words.replace(/\W+/g, ' ');
-        var word = newwords.split(' ');
-        var wordlist = Array();
-        for (var k = 0; k <= word.length - 1; k++) {
-          ret = elementfinder(word[k])
-          $.each(ret[0], function(key, val) {
-            console.log(key,val)
-            if (val['type'] == 'impure') {
-              mendel = " impure";
-            } else if (val['element'][0][4] == 'N') {
-              mendel = " nonmendel";
-            }else {
-              mendel = "";
-            }
-            $('#wordlist').append("<div class='element" + mendel + "' title='" + val['element'][0][2] + "'>" +
-              "<div class='anumber'>" + val['element'][0][0] + "</div>" +
-              "<div class='symbol'>" + val['element'][0][3] + "</div>" +
-              "<div class='name'>" + val['element'][0][2] + "</div>" +
-              "</div>");
-          });
-        }
+        periodicalize(words=words)
         e.preventDefault();
+        var link = "https://www.zemogle.net/periodicals/?word=" + words
+        $('a#sharelink').attr('href', link);
+        $('a#sharelink').show()
       });
+
+
     });
+
+    function periodicalize(words){
+      var newwords = words.replace(/\W+/g, ' ');
+      var word = newwords.split(' ');
+      var wordlist = Array();
+      for (var k = 0; k <= word.length - 1; k++) {
+        ret = elementfinder(word[k])
+        $.each(ret[0], function(key, val) {
+          console.log(key,val)
+          if (val['type'] == 'impure') {
+            mendel = " impure";
+          } else if (val['element'][0][4] == 'N') {
+            mendel = " nonmendel";
+          }else {
+            mendel = "";
+          }
+          $('#wordlist').append("<div class='element" + mendel + "' title='" + val['element'][0][2] + "'>" +
+            "<div class='anumber'>" + val['element'][0][0] + "</div>" +
+            "<div class='symbol'>" + val['element'][0][3] + "</div>" +
+            "<div class='name'>" + val['element'][0][2] + "</div>" +
+            "</div>");
+        });
+      }
+    }
 
     function elementfinder(e) {
       var letters = e.toUpperCase().split("");
@@ -269,9 +295,18 @@
           </div>
         </form>
 
-          <div data-role="content" class="is-flex">
+          <div data-role="content" class="is-flex block">
             <div id="wordlist"></div>
           </div>
+
+          <div class="block"><a href="" id="sharelink">
+            <span class="icon-text">
+              <span class="icon">
+                <span class="material-symbols-outlined">share</span>
+              </span>
+              <span>Share your Periodical</span>
+            </span>
+          </a></div>
 
         </div>
       </div>
