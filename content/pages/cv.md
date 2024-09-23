@@ -1,7 +1,4 @@
-Title: Curriculum Vitae
-Date: 2022-03-03 10:20
-
-<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0001-5749-1507" href="https://orcid.org/0000-0001-5749-1507" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;float:left;" alt="ORCID iD icon">0000-0001-5749-1507</a></div>
+# Curriculum Vitae - Edward Gomez
 
 ## Current Rôles
 - Education Director, [Las Cumbres Observatory](https://lco.global)
@@ -15,12 +12,12 @@ Date: 2022-03-03 10:20
 ## Awards and Nominations
 - **Lise Meitner Medal** from [Institute of Physics](https://www.iop.org), in 2020. This Silver Subject medal is awarded for distinguished contributions to public engagement in physics. The [complete citation can be found on the IOP website](https://www.iop.org/about/awards/2020-lise-meitner-medal-and-prize)
 - **HundrED 2021 Global Collection** - Inclusion of [Global Sky Partners](https://lco.global/education/partners) in the [100 most inspiring innovations](http://hundred.org/) in education.
-- **Scientix Award** for Best Resources in Science, Technology, Mathematics and Engineering - [Star in a Box](http://starinabox.lco.global/) in 2015. This was a joint effort by many people, particularly myself, Stuart Lowe, Megan Davies, Chris North, Jon Yardley and Haley Gomez. It was also awarded to [astroEDU](https://astroedu.iau.org) for improving the activity through peer-review.
+- **Scientix Award** for Best Resources in Science, Technology, Mathematics and Engineering - [Star in a Box](http://starinabox.lco.global/) in 2015. This was a joint effort by many people including myself, Stuart Lowe, Megan Davies, Chris North, Jon Yardley and Haley Gomez. It was also awarded to [astroEDU](https://astroedu.iau.org) for improving the activity through peer-review.
 - **HundrED 2019 Global Collection** - Inclusion of [astroEDU](https://astroedu.iau.org) in the [100 most inspiring innovations](http://hundred.org/) in education.
 
 
 ## Selected Community Rôles
-- Vice-president of [IAU Division C for Education, Outreach and Heritage](https://www.iau.org/science/scientific_bodies/divisions/C/)
+- President of [IAU Division C for Education, Outreach and Heritage](https://www.iau.org/science/scientific_bodies/divisions/C/)
 - Founder of [Ada's Adventures in Science](http://www.adacomic.uk) comic book series
 - Director of [Global Sky Partners](https://lco.global/education/partners/), providing educational opportunities to use robotic telescopes, through Las Cumbres Observatory
 - Associate editor for [Frontiers for Young Minds](https://kids.frontiersin.org/)
@@ -31,6 +28,10 @@ Date: 2022-03-03 10:20
 - Local Organising Committee for [.Astronomy 8](http://dotastronomy.com) conference in Oxford, 2016.
 - Local Organising Committee for [National Astronomy Meeting](http://nam2016.org) conference in Nottingham, 2016.
 - [Camp Cosmos](http://lco.global/campcosmos/) director, 2016-2017
+
+## Keynote Conference Talks
+- 2024 Sept - Global Hands on University, "Las Cumbres Observatory: A global network of robotic telescopes for science and education"
+- 2024 July - International Planetarium Society, "Equity and inclusion in astronomy education projects"
 
 ## Invited Talks
 
