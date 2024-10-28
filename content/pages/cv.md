@@ -1,3 +1,7 @@
+Title: Curriculum Vitae
+Date: 2022-03-03 10:20
+slug: /cv/
+
 # Curriculum Vitae - Edward Gomez
 
 ## Current Rôles
@@ -103,8 +107,8 @@
 - 2007 April - EU-Hands on Universe teacher international training conference
 
 ## Significant Grants
-- 2021 - presnet Gordon &amp; Betty Moore Foundation to support Global Sky Partners
-- 2020 - present Simons Foundation to support Global Sky Partners
+- 2021 - 2024 - Gordon &amp; Betty Moore Foundation to support Global Sky Partners
+- 2020 - 2023 - Simons Foundation to support Global Sky Partners
 - 2014 - 2018 [Universe in the Classroom](http://universe.wales) (Co-founder) - National Science Academy, Welsh Government
 - 2014 - 2017 NEO follow-up (Co-I) - NASA, see [NEO exchange website](http://lco.global/neoexchange/) created by me for this project
 - 2013 - 2016 Fascination Astronomy (Co-I) - Qatar Foundation
