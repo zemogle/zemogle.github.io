@@ -1,8 +1,6 @@
 Title: Curriculum Vitae
 Date: 2022-03-03 10:20
-slug: /cv/
 
-# Curriculum Vitae - Edward Gomez
 
 ## Current Rôles
 - Education Director, [Las Cumbres Observatory](https://lco.global)
@@ -13,25 +11,30 @@ slug: /cv/
 **Master of Astrophysics** *1st Class hons* 1995-1999, Cardiff University  
 
 
-## Awards and Nominations
-- **Lise Meitner Medal** from [Institute of Physics](https://www.iop.org), in 2020. This Silver Subject medal is awarded for distinguished contributions to public engagement in physics. The [complete citation can be found on the IOP website](https://www.iop.org/about/awards/2020-lise-meitner-medal-and-prize)
-- **HundrED 2021 Global Collection** - Inclusion of [Global Sky Partners](https://lco.global/education/partners) in the [100 most inspiring innovations](http://hundred.org/) in education.
-- **Scientix Award** for Best Resources in Science, Technology, Mathematics and Engineering - [Star in a Box](http://starinabox.lco.global/) in 2015. This was a joint effort by many people including myself, Stuart Lowe, Megan Davies, Chris North, Jon Yardley and Haley Gomez. It was also awarded to [astroEDU](https://astroedu.iau.org) for improving the activity through peer-review.
-- **HundrED 2019 Global Collection** - Inclusion of [astroEDU](https://astroedu.iau.org) in the [100 most inspiring innovations](http://hundred.org/) in education.
+## Current Projects
+- 2017 - present : [Global Sky Partners](https://lco.global/education/partners/), global educational partnerships using robotic telescopes, through Las Cumbres Observatory
+- 2024 - present : [Photon Ranch](https://learn.lco.global) (in development) a suite of educational resources, including controlling robotic telescopes in real-time and scheduled, a learning management system, and data analysis tools.
 
+## Awards and Nominations
+- 2020 : **Lise Meitner Medal** from [Institute of Physics](https://www.iop.org), in 2020. This Silver Subject medal is awarded for distinguished contributions to public engagement in physics. The [complete citation can be found on the IOP website](https://www.iop.org/about/awards/2020-lise-meitner-medal-and-prize)
+- 2021 **HundrED 2021 Global Collection** - Inclusion of [Global Sky Partners](https://lco.global/education/partners) in the [100 most inspiring innovations](http://hundred.org/) in education.
+- 2019 : **HundrED 2019 Global Collection** - Inclusion of [astroEDU](https://astroedu.iau.org) in the [100 most inspiring innovations](http://hundred.org/) in education.
+- 2015 : **Scientix Award** for Best Resources in Science, Technology, Mathematics and Engineering - [Star in a Box](http://starinabox.lco.global/) in 2015. This was a joint effort by many people including myself, Stuart Lowe, Megan Davies, Chris North, Jon Yardley and Haley Gomez. It was also awarded to [astroEDU](https://astroedu.iau.org) for improving the activity through peer-review.
+
+
+## Current Community Rôles
+- 2024 - present : President of [IAU Division C for Education, Outreach and Heritage](https://www.iau.org/science/scientific_bodies/divisions/C/)
+- 2018 - present : Founder of [Ada's Adventures in Science](http://www.adacomic.uk) comic book series
+- 2018 - present : Associate editor for [Frontiers for Young Minds](https://kids.frontiersin.org/)
 
 ## Selected Community Rôles
-- President of [IAU Division C for Education, Outreach and Heritage](https://www.iau.org/science/scientific_bodies/divisions/C/)
-- Founder of [Ada's Adventures in Science](http://www.adacomic.uk) comic book series
-- Director of [Global Sky Partners](https://lco.global/education/partners/), providing educational opportunities to use robotic telescopes, through Las Cumbres Observatory
-- Associate editor for [Frontiers for Young Minds](https://kids.frontiersin.org/)
-- Chair of the International Astronomical Union [Office for Astronomy Development](http://astro4dev.org) Task Force for children and schools.
-- Co-founder of [astroEDU](http://iau.org/astroedu), an open access, peer-review platform for reviewing and sharing astronomy education activities, endorsed by [International Astronomical Union](http://iau.org).
-- Education and Science Editor for [Space Scoop](http://spacescoop.org) (a [Universe Awareness](http://unawe.org) project), astronomy press-releases rewritten for children 2014-2019
-- Chair of National Astronomy Meeting (UK) education and outreach session organising committee 2014-15.
-- Local Organising Committee for [.Astronomy 8](http://dotastronomy.com) conference in Oxford, 2016.
-- Local Organising Committee for [National Astronomy Meeting](http://nam2016.org) conference in Nottingham, 2016.
-- [Camp Cosmos](http://lco.global/campcosmos/) director, 2016-2017
+- 2011 - 2020 : Chair of the International Astronomical Union [Office for Astronomy Development](http://astro4dev.org) Task Force for children and schools.
+- 2013 Co-founder of [astroEDU](http://iau.org/astroedu), an open access, peer-review platform for reviewing and sharing astronomy education activities, endorsed by [International Astronomical Union](http://iau.org).
+- 2014 - 2018 : Education and Science Editor for [Space Scoop](http://spacescoop.org) (a [Universe Awareness](http://unawe.org) project), astronomy press-releases rewritten for children
+- 2014 - 2015 : Chair of National Astronomy Meeting (UK) education and outreach session organising committee
+- 2016 : Local Organising Committee for [.Astronomy 8](http://dotastronomy.com) conference in Oxford.
+- 2016 : Local Organising Committee for [National Astronomy Meeting](http://nam2016.org) conference in Nottingham
+- 2016 - 2017 : [Camp Cosmos](http://lco.global/campcosmos/) director, a summer space camp for 11-14 year olds.
 
 ## Keynote Conference Talks
 - 2024 Sept - Global Hands on University, "Las Cumbres Observatory: A global network of robotic telescopes for science and education"
@@ -48,13 +51,15 @@ slug: /cv/
 - 2012 May - Leiden Observatory Science Communication seminar  - "Creating an open network of robotic telescopes"
 
 ## Selected Publications
-- [NEOExchange - an online portal for NEO and Solar System science](https://doi.org/10.1016/j.icarus.2021.114387), T.A.Lister, E.Gomez, J.Chatelain, S.Greenstreet, J.MacFarlane, A.Tedeschi, I.Kosicb, Icarus, Volume 364, August 2021, 114387
+- [A Demonstration of Interstellar Navigation Using New Horizons](https://arxiv.org/abs/2506.21666), Tod R. Lauer, David H. Munro, John R. Spencer, Marc W. Buie, **Edward L. Gomez** et al.
+- [NEOExchange - an online portal for NEO and Solar System science](https://doi.org/10.1016/j.icarus.2021.114387), T.A.Lister, **E.Gomez**, J.Chatelain, S.Greenstreet, J.MacFarlane, A.Tedeschi, I.Kosicb, Icarus, Volume 364, August 2021, 114387
 - [astrosource: automating optical astronomy measurement, calibration and analysis for variable stellar sources from provided photometry](https://doi.org/10.21105/joss.02641), Michael T Fitzgerald, **Edward Gomez**, Saeed Salimpour, Joe Singleton, and Ridlo W. Wibowo, 2021, Journal of Open Source Software, 6 (58), 2641
-- [Robotic Telescopes in Education](http://dx.doi.org/10.1080/21672857.2017.1303264), Gomez EL, Fitzgerald MT, 2017, Astronomical Review
-- [Using machine learning to study the kinematics of cold gas in galaxies](https://doi.org/10.1093/mnras/stz3097) Dawson, James M., Davis, Timothy A., Gomez, Edward L., Schock, Justus, 2019, Monthly Notices of the Royal Astronomical Society 491 (2), 2506–2519
+- [Robotic Telescopes in Education](http://dx.doi.org/10.1080/21672857.2017.1303264), **Gomez EL**, Fitzgerald MT, 2017, Astronomical Review
+- [Using machine learning to study the kinematics of cold gas in galaxies](https://doi.org/10.1093/mnras/stz3097) Dawson, James M., Davis, Timothy A., **Gomez, Edward L.,** Schock, Justus, 2019, Monthly Notices of the Royal Astronomical Society 491 (2), 2506–2519
 
 ## Selected Public Talks
 
+- 2024 July - Llandaff Cathedral - "The Science of Interstellar"
 - 2021 Sept - Qatar National Library - "Las Cumbres Observatory"
 - 2020 Oct - Swansea Science Festival - "Only a Matter of time". An interview with comedian, David Baddiel and science of time travel talk.
 - 2020 Feb - Cardiff Science Festival - "Science of Time Travel"
