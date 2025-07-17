@@ -4,6 +4,7 @@ Date: 2022-03-03 10:20
 
 ## Current Rôles
 - Education Director, [Las Cumbres Observatory](https://lco.global)
+- Senior Software Engineer, [Las Cumbres Observatory](https://lco.global)
 - Honorary Lecturer, [School of Physics & Astronomy, Cardiff University](http://www.astro.cardiff.ac.uk)
 
 ## Education
