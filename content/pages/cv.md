@@ -13,8 +13,8 @@ Date: 2022-03-03 10:20
 
 
 ## Current Projects
-- 2017 - present : [Global Sky Partners](https://lco.global/education/partners/), global educational partnerships using robotic telescopes, through Las Cumbres Observatory
-- 2024 - present : [Photon Ranch](https://learn.lco.global) (in development) a suite of educational resources, including controlling robotic telescopes in real-time and scheduled, a learning management system, and data analysis tools.
+- 2017 - present : **Programme manager** for [Global Sky Partners](https://lco.global/education/partners/), global educational partnerships using robotic telescopes, through Las Cumbres Observatory
+- 2024 - present : **Programme manager and software developer** [Photon Ranch](https://learn.lco.global) (in development) a suite of educational resources, including controlling robotic telescopes in real-time and scheduled, a learning management system, and data analysis tools.
 
 ## Awards and Nominations
 - 2020 : **Lise Meitner Medal** from [Institute of Physics](https://www.iop.org), in 2020. This Silver Subject medal is awarded for distinguished contributions to public engagement in physics. The [complete citation can be found on the IOP website](https://www.iop.org/about/awards/2020-lise-meitner-medal-and-prize)
@@ -24,9 +24,10 @@ Date: 2022-03-03 10:20
 
 
 ## Current Community Rôles
-- 2024 - present : President of [IAU Division C for Education, Outreach and Heritage](https://www.iau.org/science/scientific_bodies/divisions/C/)
-- 2018 - present : Founder of [Ada's Adventures in Science](http://www.adacomic.uk) comic book series
-- 2018 - present : Associate editor for [Frontiers for Young Minds](https://kids.frontiersin.org/)
+- 2024 - present : **President** of [IAU Division C for Education, Outreach and Heritage](https://www.iau.org/science/scientific_bodies/divisions/C/)
+- 2018 - present : **Web editor and editorial advisor** for [astroEDU](https://astroedu.iau.org) peer-review platform for astronomy education activities
+- 2018 - present : **Founder** of [Ada's Adventures in Science](http://www.adacomic.uk) comic book series
+- 2018 - present : **Associate editor** for [Frontiers for Young Minds](https://kids.frontiersin.org/)
 
 ## Selected Community Rôles
 - 2011 - 2020 : Chair of the International Astronomical Union [Office for Astronomy Development](http://astro4dev.org) Task Force for children and schools.
@@ -52,7 +53,7 @@ Date: 2022-03-03 10:20
 - 2012 May - Leiden Observatory Science Communication seminar  - "Creating an open network of robotic telescopes"
 
 ## Selected Publications
-- [A Demonstration of Interstellar Navigation Using New Horizons](https://arxiv.org/abs/2506.21666), Tod R. Lauer, David H. Munro, John R. Spencer, Marc W. Buie, **Edward L. Gomez** et al.
+- [A Demonstration of Interstellar Navigation Using New Horizons](https://arxiv.org/abs/2506.21666), Tod R. Lauer, David H. Munro, John R. Spencer, Marc W. Buie, **Edward L. Gomez** et al., The Astronomical Journal, Volume 170, Issue 1, id.22, 14 pp.
 - [NEOExchange - an online portal for NEO and Solar System science](https://doi.org/10.1016/j.icarus.2021.114387), T.A.Lister, **E.Gomez**, J.Chatelain, S.Greenstreet, J.MacFarlane, A.Tedeschi, I.Kosicb, Icarus, Volume 364, August 2021, 114387
 - [astrosource: automating optical astronomy measurement, calibration and analysis for variable stellar sources from provided photometry](https://doi.org/10.21105/joss.02641), Michael T Fitzgerald, **Edward Gomez**, Saeed Salimpour, Joe Singleton, and Ridlo W. Wibowo, 2021, Journal of Open Source Software, 6 (58), 2641
 - [Robotic Telescopes in Education](http://dx.doi.org/10.1080/21672857.2017.1303264), **Gomez EL**, Fitzgerald MT, 2017, Astronomical Review
@@ -82,6 +83,9 @@ Date: 2022-03-03 10:20
 
 
 ## Contributed Conference Talks
+- 2024 Aug - IAU General Assembly XXXII - "Exoplanets in education: rise of the robotic telescopes"
+- 2022 AstroEdu Conference - "Creating equitable, sustainable, and innovative educational projects using robotic telescopes"
+- 2022 - Communicating Astronomy to the Public conference - "Ada’s Adventures in Science: using comic books to educate and empower"
 - 2020 Sept - The Future of Meetings - "Robotic telescopes don't have eyepieces"
 - 2016 Jun - National Astronomy Meeting - "There is no such thing as a stupid question"
 - 2016 April - TEMI conference - "Big Questions in Science"
@@ -94,6 +98,7 @@ Date: 2022-03-03 10:20
 - 2009 Jan - International Year of Astronomy Cultural Heritage conference
 
 ## Workshops and Conference Sessions Organized
+- 2024 Aug - IAU General Assembly XXXII - [Focus Meeting 10 - Teaching capacity of remote observing facilities for Universities and High Schools](https://fm10.zemogle.net/)
 - 2021 Oct - IAU Shaw Meeting, "astroEDU: improving educational activities through peer-review" session
 - 2018 June - National Astronomy Meeting, "Art Space" session
 - 2016 June - National Astronomy Meeting Schools' Day organizer
@@ -121,21 +126,32 @@ Date: 2022-03-03 10:20
 
 ## Selected Web Projects
 
+### [Explore @ Photon Ranch](https://explore.lco.global)
+*VueJS - Developer*
+Real-time and queue scheduled portal for users to engage in educational projects with Las Cumbres Observatory.
+
+### [Kiosk](https://kiosk.lco.global)
+*VueJS - Creator and maintainer*
+Interactive portal for educational audiences to schedule observations on robotic telescopes.
+
+### [NEOexchange](https://neoexchange.lco.global)
+*Django - Lead developer and contributer*
+Website for tracking observations of Near Earth Asteroids and Comets. It includes scheduling robotic telescopes, ingesting remote alerts and graphical display.
+
 ### [Star in a Box](https://starinabox.lco.global)
-*Lead developer and maintainer*  
+*Vanilla HTML, CSS, JS - Lead developer and maintainer*  
 Web app for learning about the life cycle of stars. [2015 winner of Scientix Round 1 competition, category 2, Resources Award](http://www.iau.org/news/announcements/detail/ann14032/).
 
 ### [Serol's Cosmic Explorers](http://serol.lco.global)
-*Creator and lead developer*  
-Web application for exploring astronomy through missions, challenges and using robotic telescopes.
+*Django - Programme manager and lead developer*  
+Suite of interative  web apps for exploring astronomy through missions, challenges and using robotic telescopes.
 
-### [Asteroid Tracker](http://asteroidtracker.lco.global)
-*Creator and lead developer*
+### [Asteroid Tracker](http://asteroidtracker.lco.global) (archive)
+*Initially Django but now static HTML - Creator and lead developer*
 Web app to which triggers observations of asteroids (with [Las Cumbres Observatory](http://lco.global))) with a single click. Everyone's image get automatically combined into timelapses of the asteroids moving through space.
 
-
 ### [Agent Exoplanet](http://lco.global/agentexoplanet)
-*Lead developer and maintainer*  
+*Initially Django but now static HTML - Lead developer*  
 An online LCO citizen science project for investigating the properties of transiting extra-solar planets.
 
 More of my projects can be found on my [GitHub profile](https://github.com/zemogle/).
