@@ -5,13 +5,13 @@ Date: 2022-03-03 10:20
 
 Since childhood I have been fascinated by astronomy. When I realised that I could use maths and computers to do fun things with astronomy, I knew I was hooked for life. I never grew out of it and now I am lucky enough to be a professional astrophysicist. As part of my role with [Las Cumbres Observatory][21] (LCO) I try to find novel ways to engage the public in science by using astronomy. This has taken the form of creating citizen science projects like [Asteroid Tracker](http://asteroidtracker.lco.global/), interactive educational web apps like [Star in a Box][2], and online celebrity events like [Show Me Stars][3] and an award winning education programme, [Global Sky Partners](https://lco.global/education/partners).
 
-I am immensely proud to have been awarded the IOP's [2020 Lise Meitner Silver Subject Medal](https://www.iop.org/about/awards/2020-lise-meitner-medal-and-prize) for "distinguished contributions to science engagement".
+I am immensely proud to have been awarded the [2020 Lise Meitner Silver Subject Medal](https://www.iop.org/about/awards/2020-lise-meitner-medal-and-prize) for "distinguished contributions to science engagement" (by the Institute of Physics) and the [2026 Annie Maunder Medal](https://ras.ac.uk/news-and-press/news/winners-2026-ras-awards-revealed) for "outstanding contributions to outreach and public engagement in astronomy" by the Royal Astronomical Society.
 
 The global education hub for LCO is based in [Cardiff University][4] where I am an honorary lecturer/adjunct faculty in the [School of Physics and Astronomy][5]. One of the enjoyably parts of this position is supervising BSc. and MPhys. level undergraduate projects. I am very proud that 4 of my former project students have gone on to do PhDs. My students have studied transiting exoplanets and made physics games in Python using the [PyGame library](https://www.pygame.org/docs/).
 
 Together with [Haley Gomez][22], I ran the [Universe in the Classroom][8] programme inspiring children and teachers in Wales with [Universe in a Box][9] kits, stellar role models and using the LCO robotic telescopes.
 
-I am vice-president of IAU Division C - Education, Outreach and Heritage. I also co-chair the [IAU][11] task force for [children and schools][12], under the guidance of the [Office of Astronomy for Development][13] (OAD). Our aim is to help people in astronomically developing countries to engage with and inspire children and teachers.
+I am president of IAU Division C - Education, Outreach and Heritage. Until 2020 I was co-chair the [IAU][11] task force for [children and schools][12], under the guidance of the [Office of Astronomy for Development][13] (OAD). I am very interested in using astronomy as a tool to empower and inspire people (particularly young people) to realise their potential by giving them opportunities to develop skills and experience. These projects have the maximum impact with underserved and underrepresented communities.
 
 Good science communication is very important, especially providing the most up-to-date news and discoveries in an easy to understand way. Since 2014 I have been involved with [Space Scoop](http://spacescoop.org) which delivers the latest news about space in a language which is appropriate for children (and non-specialist adults too!). I am an astrophysics associate editor for [Frontiers for Young Minds](https://kids.frontiersin.org/articles/astronomy-and-space-science/) a journal where the authors are scientists, but the reviewers are kids.
 
@@ -21,11 +21,9 @@ Being a life long fan of Doctor Who, I've been delighted to give [Science of Doc
 
 I love comic books and had the fantastic opportunity to work with a Cardiff based artist, [Laura Sorvala](http://www.auralab.co.uk/), to produce [Ada's Adventures in Science](http://www.adacomic.uk/). The main aim is to show kids that science is about being curious, no matter who you are. We've given out over 15,000 copies of this comic book to kids and adults in 20 countries around the world, thanks to a successful Kickstarter campaign.
 
-I occasionally appear on the BBC radio wales programmes, [Science Cafe][14] and [Eleri Sion Show][15]. I have served as guest judge for the national [Debating Matters][16] competition. Engaging with the public is fun and I have been lucky enough to do it in several pubs with [Ignite Cardiff][17] and [Bright Club][18].
+Between 2006 and 2020 I regularly appeared on the BBC radio wales programmes, [Science Cafe][14] and [Eleri Sion Show][15]. I have served as guest judge for the national [Debating Matters][16] competition. Engaging with the public is fun and I have been lucky enough to do it in several pubs with [Ignite Cardiff][17] and [Bright Club][18].
 
 I love music and play the lute. Part of me thinks that makes me closer to a renaissance astronomer, like Galileo.
-
-You can find my blog over at [Dark Matter Sheep][20], where I talk about science, coding, gender equity, music, films, and some other things that interest me.
 
 For more details about my public talks, conference talks, workshop and project involved with, look at my [professional CV/Resumé](/cv/).
 

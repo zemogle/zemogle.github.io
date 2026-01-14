@@ -4,19 +4,43 @@ Date: 2022-03-03 10:20
 
 ## Current Roles
 - Education Director, [Las Cumbres Observatory](https://lco.global)
-- Senior Software Engineer, [Las Cumbres Observatory](https://lco.global)
 - Honorary Lecturer, [School of Physics & Astronomy, Cardiff University](http://www.astro.cardiff.ac.uk)
 
 ## Education
 **PhD - Astrophysics** *Instability in the winds of hot stars: Theory and Simulation* 1999-2004, Cardiff University  
 **Master of Astrophysics** *1st Class hons* 1995-1999, Cardiff University  
 
-## Current Projects
-- 2017 - present : **Programme manager** for [Global Sky Partners](https://lco.global/education/partners/), creating and managing global educational partnerships using robotic telescopes, through Las Cumbres Observatory
-- 2017 - present : **Serol's Cosmic Explorers** 
-- 2024 - present : **Programme manager and software developer** [Photon Ranch](https://learn.lco.global) (in development) a suite of educational resources, including controlling robotic telescopes in real-time and scheduled, a learning management system, and data analysis tools.
+## Skills & Experience
+
+### Leadership, Collaboration, and Inclusion
+- Building and managing high-performing curriculum development teams for astroEDU, Serol’s Cosmic Explorers, and LCO’s core educational resources.
+- Establishing and managing international and inter-disciplinary partnerships for the Global Sky Partners program.
+- Presenting at conferences (including two keynote talks in 2024 and several contributed talks annually) and representing LCO in educational policy discussions (e.g., IAU General Assembly Focus Meeting, Cape Town, 2024).
+- Advocating for inclusivity: In 2024, I delivered a keynote on equity and inclusion in astronomy education at the International Planetarium Society Conference in Berlin, recognized for my work with the IAU Office of Astronomy for Development, Global Sky Partners, and Ada’s Adventures.
+- International leadership: In 2024 I was voted to the position of President of the International Astronomical Union’s Division C (Education, Outreach and Heritage), with a membership of 4000+, 5 commissions and 6 working groups.
+
+### Curriculum Development & Strategy
+- Designing age-appropriate, innovative, and engaging science curricula that balance theoretical concepts with practical application. I've managed the development of diverse, mixed-media astronomy education resources, often using astronomy as a vehicle for teaching core data science skills.
+- Leading cross-functional teams to create comprehensive educational resources, including interactive analysis tools (e.g., Serol’s Cosmic Explorers, involving remote teams across the UK, US, and Japan).
+- Ensuring curriculum alignment with national standards while maintaining pedagogical innovation by working with partners in over 40 countries to localize experiences, through Global Sky Partners. My work with astroEDU established quality assurance frameworks, including peer review, teacher trials, and learning outcome mapping.
+
+### Educational Technology & Resources
+- Overseeing the development of digital learning platforms and interactive educational materials for LCO, including Serol’s Cosmic Explorers and SpaceBook.
+- Managing large-scale resource production from conception to deployment, such as the ambitious Photon Ranch programme (customised Learning Management System, astronomy education and data analysis curriculum, online tools, and real-time observing portal).
+- Implementing continuous feedback mechanisms for resource improvement.
+- Co-creating python packages for the community - e.g. Astrosource (Fitzgerald, Gomez et al 2021), a Python package to standardize image data analysis for accessibility and reproducibility.
+- Data Analysis  & Software Engineering
+- Creating and maintaining community python packages for data analysis (e.g. AstroSource, AstroPy)
+- Visualisation of astronomical data stored in SQL tables and file-based formats through Python for scientific purposes (see publications). 
+- Working in an Agile software team to develop and deploy production code (e.g. Serol’s Cosmic Explorers, LCO Observation Portal, image data processing pipeline) using Elastic Kubernetes Service on AWS.
+
+## Recent Projects
+- 2017 - 2025 : **Programme manager** for [Global Sky Partners](https://lco.global/education/partners/), creating and managing global educational partnerships using robotic telescopes, through Las Cumbres Observatory
+- 2017 - 2025 : **Serol's Cosmic Explorers** 
+- 2024 - 2025 : **Programme manager and software developer** [Photon Ranch](https://learn.lco.global) (in development) a suite of educational resources, including controlling robotic telescopes in real-time and scheduled, a learning management system, and data analysis tools.
 
 ## Awards and Nominations
+- 2026 : **Annie Maunder Medal** from [Royal Astronomical Society](https://www.ras.org.uk). This medal was awarded for "outstanding contribution to education and public engagement in astrophysics" throughout my career. The [complete citation can be found on the RAS website](https://ras.ac.uk/news-and-press/news/winners-2026-ras-awards-revealed).
 - 2021 **HundrED 2021 Global Collection** - Inclusion of [Global Sky Partners](https://lco.global/education/partners) in the [100 most inspiring innovations](http://hundred.org/) in education.
 - 2020 : **Lise Meitner Medal** from [Institute of Physics](https://www.iop.org), in 2020. This Silver Subject medal is awarded for distinguished contributions to public engagement in physics. The [complete citation can be found on the IOP website](https://www.iop.org/about/awards/2020-lise-meitner-medal-and-prize)
 - 2019 : **HundrED 2019 Global Collection** - Inclusion of [astroEDU](https://astroedu.iau.org) in the [100 most inspiring innovations](http://hundred.org/) in education.
@@ -26,7 +50,7 @@ Date: 2022-03-03 10:20
 ## Current Community Projects & Roles
 - 2024 - present : **President** of [IAU Division C for Education, Outreach and Heritage](https://www.iau.org/science/scientific_bodies/divisions/C/)
 - 2020 - present : **webmaster** for [SpaceScoop](https://spacescoop.org) (a [Universe Awareness](http://unawe.org) project), astronomy press-releases reimagined for children
-- 2018 - present : **Web editor and editorial advisor** for [astroEDU](https://astroedu.iau.org) peer-review platform for astronomy education activities
+- 2013 - present : **Founder and editorial advisor** for [astroEDU](https://astroedu.iau.org) peer-review platform for astronomy education activities
 - 2018 - present : **Founder** of [Ada's Adventures in Science](http://www.adacomic.uk) science comic book series, which aims to inspire and empower underserved audiences to believe in their scientific potential.
 - 2018 - present : **Associate editor** for [Frontiers for Young Minds](https://kids.frontiersin.org/)
 
@@ -40,11 +64,11 @@ Date: 2022-03-03 10:20
 - 2016 - 2017 : [Camp Cosmos](http://lco.global/campcosmos/) director, a summer space camp for 11-14 year olds.
 
 ## Keynote Conference Talks
-- 2024 Sept - Global Hands on University, "Las Cumbres Observatory: A global network of robotic telescopes for science and education"
+- 2025 Oct - Universe Awareness legacy workshop, ["Creating sustainable education programmes: How Universe Awareness became an inspiration for astronomy education"](https://www.astro4dev.eu/projects/workshop-universe-awareness/)
+- 2024 Sept - Global Hands on Universe, "Las Cumbres Observatory: A global network of robotic telescopes for science and education"
 - 2024 July - International Planetarium Society, "Equity and inclusion in astronomy education"
 
 ## Invited Talks
-
 - 2021 Oct - IAU Shaw Meeting, "Create better interactive apps"
 - 2017 Feb - Center for Astrophysics, Harvard University - Smithsonian Institute, "Las Cumbres Observatory"
 - 2014 Apr - Italian National Astronomy Meeting, Milan, "astroEDU: open access and peer-review for astronomy education".
